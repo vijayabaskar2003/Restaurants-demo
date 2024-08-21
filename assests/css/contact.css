@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #FDF4F5;
+}
+
+.header {
+    background-color: lavender;
+    width: 100%;
+}
+
+.header img {
+    width: 90px;
+    cursor: pointer;
+
+}
+
+.header a img {
+    width: 100px;
+    padding-right: 3px;
+    float: right;
+    transform: translateY(-118px);
+    padding-top: 1.5rem;
+
+}
+
+.hed{
+    float: right;
+    padding: 2rem 41rem 0rem 0rem;
+    font-size: 33px;
+    font-family: Cooper Black;
+    cursor: pointer;
+    /* margin-right: 80px; */
+}
+
+.img {
+    /* background-image: url('assests/Images/food1.jpg'); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 687px;
+}
+
+.time { 
+padding: 30px;
+} 
+
+.time h2{
+    text-align: center;
+    color:white;
+}
+.para{
+    margin-left: 606px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px;
+    color:white;
+}
+
+.ab {
+    /* text-align: center; */
+    /* color: aliceblue; */
+    /* font-size: 2rem; */
+}
+
+a img:hover {
+    background-color: wheat;
+}
+
+.hed1,.hed2,.hed3{
+    color: white;
+    text-align: center;
+}
+
+.p2 {
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+line-height: 40px;
+color: lightgray;
+}

@@ -1,0 +1,100 @@
+/* whole body of html tags */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* box heading color and width */
+.header {
+    background-color: lavender;
+    width: 100%;
+    height: 90px;
+}
+
+/* header images size */
+.header img {
+    width: 90px;
+    cursor: pointer;
+}
+
+/* title alignment */
+.head {
+    padding-top: 22px;
+    padding-right: 279px;
+    font-size: 27px;
+    font-family: Cooper Black;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/* Its to route to another page */
+a {
+    display: block;
+    width: 180px;
+    color: black;
+    padding: 30px;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/* Its to highight the dropdowns and nav */
+a:hover,
+.dropdown li {
+    background-color: azure !important;
+}
+
+/* to align the navbars to be in aligned */
+.home {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/* to remove the underline of the menu list */
+.Menu {
+    list-style-type: none;
+}
+
+/* alignments of dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lavender;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 604px;
+   
+}
+    

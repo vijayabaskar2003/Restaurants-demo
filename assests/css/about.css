@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#FDF4F5;
+}
+.header {
+    background-color: lavender;
+    width: 100%;
+}
+
+.header img {
+    width: 90px;
+    cursor: pointer;
+
+}
+
+.header a img {
+    width: 100px;
+    padding-right: 3px;
+    float: right;
+    transform: translateY(-118px);
+    padding-top: 1.5rem;
+
+}
+
+span {
+    float: right;
+    padding: 2rem 41rem 0rem 0rem;
+    font-size: 30px;
+    font-family: Cooper Black;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.para1,.para2,.para3,.para4,.para5,.para6{
+    text-align: justify;
+    font-size: 2rem;
+}
+p.po1,.po2,.po3,.po4,.po5,.po6{
+    padding-left: 9rem;
+    text-align: justify;
+}
+a img:hover {
+background-color: wheat;
+}

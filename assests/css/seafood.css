@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #FDF4F5;
+}
+
+.header {
+    background-color: lavender;
+}
+
+.header img {
+    width: 90px;
+    padding-left: 3px;
+    cursor: pointer;
+
+}
+
+span {
+    float: right;
+    padding: 2rem 41rem 0rem 0rem;
+    font-size: 30px;
+    font-family: Cooper Black;
+    cursor: pointer;
+    margin-right: 83px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.veg-p {
+    padding-left: 8rem;
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+.row::after {
+    display: table;
+
+}
+
+.header a img {
+    width: 100px;
+    padding-right: 3px;
+    float: right;
+    transform: translateY(-118px);
+    padding-top: 1.5rem;
+}
+
+a img:hover {
+    background-color: wheat;
+}
